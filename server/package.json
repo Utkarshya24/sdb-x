@@ -1,0 +1,24 @@
+{
+  "name": "sdb-x-server",
+  "version": "1.0.0",
+  "main": "index-rest.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npx ts-node index-rest.ts"
+  },
+  "author": "utkarsh yadav",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dockerode": "^4.0.9",
+    "express": "^5.2.1",
+    "socket.io": "^4.8.1",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^24.10.2",
+    "nodemon": "^3.1.11",
+    "typescript": "^5.9.3"
+  }
+}
